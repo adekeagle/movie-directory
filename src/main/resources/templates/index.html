@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li th:each="movie : ${movies}" th:text="${movie.name}"></li>
+    </ul>
+</body>
+</html>
